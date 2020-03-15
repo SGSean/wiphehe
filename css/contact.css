@@ -1,0 +1,41 @@
+html {
+    background-image: linear-gradient(to top right, #000000, #3e403f);
+    height: 100%;
+    margin: 0;
+}
+h1, h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #52e38e;
+    font-size: 2em;
+    
+}
+.topnav {
+    
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    transition: background-color .5s ease;
+  }
+  
+  /* Change the color of links on hover */
+  
+  .topnav a:hover {
+    background-color: #52e38e;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #52e38e;
+    color: white;
+  }
