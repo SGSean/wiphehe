@@ -25,6 +25,7 @@ h1, h2 {
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
     transition: background-color .5s ease;
+    transition: color .5s ease;
   }
   
   /* Change the color of links on hover */
