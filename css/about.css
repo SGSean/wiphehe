@@ -8,30 +8,6 @@ html {
     position: absolute;
     overflow: hidden;
 }
-h1 {
-     
-    font-family: 'Roboto', sans-serif;
-     color: #52e38e;
-     text-align: center;
-     font-size: 100px;
-}
-h2 {
-     
-    font-family: 'Roboto', sans-serif;
-     color: #52e38e;
-     text-align: center;
-     font-size: 50px;
-     offset-distance: 50 0;
-}
-h3 {
-     
-  font-family: 'Roboto', sans-serif;
-   color: #52e38e;
-   text-align: center;
-   font-size: 50px;
-   offset-distance: 50 0;
-}
-/* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
   }
@@ -77,27 +53,24 @@ h3 {
     left: 50%;
     
   }
-  .more {
-    color: #f2f2f2;
+h1 {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
     font-family: 'Roboto', sans-serif;
-    transition: background-color .5s ease;
-    align-self: center;
-    left: 50%;
-  }
-  .more:hover {
-    background-color: #52e38e;
-    color: black;
-  }
-  footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
+    color: #52e38e;
+    font-size: 70px;
+}
+h2 {
     text-align: center;
-  }
+    font-family: 'Roboto', sans-serif;
+    color: #52e38e;
+    font-size: 50px;
+}
+.explist {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: #52e38e;
+    font-size: 30px;
+    list-style: inside;
+    display: flex;
+    justify-content: center;
+}
