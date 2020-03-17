@@ -9,15 +9,15 @@ html {
     overflow: hidden;
 }
 h1 {
-     
-    font-family: 'Roboto', sans-serif;
+    animation: fadein ease 1s;
+    font-family: 'Lato', sans-serif;
      color: #52e38e;
      text-align: center;
      font-size: 100px;
 }
 h2 {
-     
-    font-family: 'Roboto', sans-serif;
+    animation: fadein ease 3s;
+    font-family: 'Lato', sans-serif;
      color: #52e38e;
      text-align: center;
      font-size: 50px;
@@ -100,4 +100,13 @@ h3 {
     background-color: black;
     color: white;
     text-align: center;
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
   }
